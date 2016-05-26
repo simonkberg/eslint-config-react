@@ -4,7 +4,7 @@
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jasmine",
     "postpublish": "greenkeeper-postpublish"
   },
   "repository": {
@@ -17,9 +17,14 @@
     "url": "https://github.com/simonkberg/eslint-config-react/issues"
   },
   "homepage": "https://github.com/simonkberg/eslint-config-react#readme",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "dependencies": {
     "babel-eslint": "^6.0.4",
     "eslint-config-standard": "^5.3.1",
+    "eslint-config-standard-jsx": "^1.2.0",
+    "eslint-config-standard-react": "^2.4.0",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-promise": "^1.1.0",
     "eslint-plugin-react": "^5.1.1",
@@ -29,6 +34,12 @@
     "eslint": "^2.0.0-rc.0"
   },
   "devDependencies": {
-    "greenkeeper-postpublish": "^1.0.0"
-  }
+    "eslint": "^2.10.2",
+    "greenkeeper-postpublish": "^1.0.0",
+    "jasmine": "^2.4.1"
+  },
+  "files": [
+    "index.js",
+    "eslintrc.json"
+  ]
 }
