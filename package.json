@@ -1,15 +1,15 @@
 {
   "name": "@simonkberg/eslint-config-react",
-  "version": "2.0.0",
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "postpublish": "greenkeeper-postpublish"
+    "postpublish": "greenkeeper-postpublish",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonkberg/eslint-config-react.git"
+    "url": "https://github.com/simonkberg/eslint-config-react.git"
   },
   "author": "Simon Kjellberg <simon.kjellberg@gmail.com>",
   "license": "MIT",
@@ -36,7 +36,8 @@
   "devDependencies": {
     "eslint": "^2.10.2",
     "greenkeeper-postpublish": "^1.0.0",
-    "jasmine": "^2.4.1"
+    "jasmine": "^2.4.1",
+    "semantic-release": "^4.3.5"
   },
   "files": [
     "index.js",
