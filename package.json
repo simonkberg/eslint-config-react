@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/simonkberg/eslint-config-react#readme",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   },
   "dependencies": {
     "babel-eslint": "^6.0.4",

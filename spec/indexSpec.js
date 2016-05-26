@@ -1,8 +1,8 @@
 /* eslint-env jasmine */
 
 const eslintrc = require('../')
-const { CLIEngine } = require('eslint')
-const { isArray } = Array
+const CLIEngine = require('eslint').CLIEngine
+const isArray = Array.isArray.bind(Array)
 
 describe('@simonkberg/eslint-config-react', () => {
   it('should return an object', () => {
