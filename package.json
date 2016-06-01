@@ -3,7 +3,7 @@
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine",
+    "test": "jest",
     "postpublish": "greenkeeper-postpublish",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -19,6 +19,10 @@
   "homepage": "https://github.com/simonkberg/eslint-config-react#readme",
   "engines": {
     "node": ">=4.0.0"
+  },
+  "jest": {
+    "automock": false,
+    "testEnvironment": "node"
   },
   "dependencies": {
     "babel-eslint": "^6.0.4",
@@ -36,7 +40,7 @@
   "devDependencies": {
     "eslint": "^2.10.2",
     "greenkeeper-postpublish": "^1.0.0",
-    "jasmine": "^2.4.1",
+    "jest-cli": "^12.1.1",
     "semantic-release": "^4.3.5"
   },
   "files": [
