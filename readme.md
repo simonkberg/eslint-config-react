@@ -29,6 +29,8 @@ Add to `.eslintrc`:
   - [eslint-plugin-babel]
 - Environment:
   - browser
+- Rules:
+  - **comma-dangle**: `always-multiline`
 
 [build-badge]: https://img.shields.io/travis/simonkberg/eslint-config-react/master.svg?style=flat-square
 [build]: https://travis-ci.org/simonkberg/eslint-config-react
