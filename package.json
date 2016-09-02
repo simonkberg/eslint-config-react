@@ -40,7 +40,7 @@
   "devDependencies": {
     "eslint": "^3.0.0",
     "greenkeeper-postpublish": "^1.0.0",
-    "jest-cli": "^13.0.0",
+    "jest-cli": "^15.1.1",
     "semantic-release": "^4.3.5"
   },
   "files": [
