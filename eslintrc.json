@@ -1,14 +1,6 @@
 {
-  "parser": "babel-eslint",
   "extends": [
-    "standard",
+    "@simonkberg/eslint-config",
     "standard-react"
-  ],
-  "plugins": ["babel"],
-  "env": {
-    "browser": true
-  },
-  "rules": {
-    "comma-dangle": [2, "always-multiline"]
-  }
+  ]
 }
