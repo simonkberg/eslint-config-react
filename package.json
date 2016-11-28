@@ -1,4 +1,5 @@
 {
+  "version": "0.0.0-development",
   "name": "@simonkberg/eslint-config-react",
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
