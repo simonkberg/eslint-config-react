@@ -26,14 +26,14 @@
   "dependencies": {
     "@simonkberg/eslint-config": "^3.0.0",
     "eslint-config-standard-react": "^4.0.1",
-    "eslint-plugin-react": "^6.2.0"
+    "eslint-plugin-react": "^6.9.0"
   },
   "peerDependencies": {
     "eslint": "^3.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.0.0",
     "jest-cli": "^19.0.2",
+    "eslint": "^3.15.0",
     "semantic-release": "^6.3.2"
   },
   "files": [
