@@ -39,14 +39,14 @@
     conventional-changelog "0.0.17"
     github-url-from-git "^1.4.0"
 
-"@simonkberg/eslint-config@^3.0.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-3.2.0.tgz#d1e3026cbdb8a60e62ae65841fcbaed68a2a894c"
+"@simonkberg/eslint-config@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-4.1.0.tgz#438242d6794dbcfdac11cd9995fa953000e660f2"
   dependencies:
     babel-eslint "^7.1.0"
-    eslint-config-standard "^6.0.0"
-    eslint-plugin-babel "^4.0.1"
-    eslint-plugin-promise "^3.4.2"
+    eslint-config-standard "^7.0.0"
+    eslint-plugin-babel "^4.1.0"
+    eslint-plugin-promise "^3.5.0"
     eslint-plugin-standard "^2.0.0"
 
 abab@^1.0.3:
@@ -69,17 +69,13 @@ acorn-jsx@^3.0.0:
   dependencies:
     acorn "^3.0.4"
 
-acorn@4.0.4:
+acorn@4.0.4, acorn@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.4.tgz#17a8d6a7a6c4ef538b814ec9abac2779293bf30a"
 
 acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
-
-acorn@^4.0.4:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-4.0.11.tgz#edcda3bd937e7556410d42ed5860f67399c794c0"
 
 ajv-keywords@^1.0.0:
   version "1.1.1"
@@ -872,17 +868,17 @@ eslint-config-standard-react@^4.0.1:
   dependencies:
     eslint-config-standard-jsx "^3.0.0"
 
-eslint-config-standard@^6.0.0:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-6.2.1.tgz#d3a68aafc7191639e7ee441e7348739026354292"
+eslint-config-standard@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-7.0.0.tgz#4f161bc65695e4bc61331c55b9eeaca458cd99c6"
 
-eslint-plugin-babel@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-babel/-/eslint-plugin-babel-4.0.1.tgz#77de74dabd67a6bef3b16bf258f5804e971e7349"
+eslint-plugin-babel@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-babel/-/eslint-plugin-babel-4.1.0.tgz#837a74c092ad4d74f9fc74aed43f750906adc827"
 
-eslint-plugin-promise@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.4.2.tgz#1be2793eafe2d18b5b123b8136c269f804fe7122"
+eslint-plugin-promise@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.5.0.tgz#78fbb6ffe047201627569e85a6c5373af2a68fca"
 
 eslint-plugin-react@^6.9.0:
   version "6.10.0"
