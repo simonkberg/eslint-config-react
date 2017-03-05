@@ -39,9 +39,9 @@
     conventional-changelog "0.0.17"
     github-url-from-git "^1.4.0"
 
-"@simonkberg/eslint-config@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-4.1.0.tgz#438242d6794dbcfdac11cd9995fa953000e660f2"
+"@simonkberg/eslint-config@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@simonkberg/eslint-config/-/eslint-config-5.0.0.tgz#ff9f7d9267e737caaaf945ee54fda568ee3788ac"
   dependencies:
     babel-eslint "^7.1.0"
     eslint-config-standard "^7.0.0"
