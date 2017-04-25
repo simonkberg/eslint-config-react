@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@simonkberg/eslint-config": "^6.0.0",
-    "eslint-config-standard-react": "^4.3.0",
+    "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
