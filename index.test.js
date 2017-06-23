@@ -1,17 +1,23 @@
-/* eslint-env jasmine */
+/* eslint-env jest */
 
-const eslintrc = require('../')
+const path = require('path')
+const config = require('./index.js')
 const CLIEngine = require('eslint').CLIEngine
 
 describe('@simonkberg/eslint-config-react', () => {
   it('should match the snapshot', () => {
-    expect(eslintrc).toMatchSnapshot()
+    expect(
+      Object.assign({}, config, {
+        parser: path.relative(__dirname, config.parser),
+        extends: config.extends.map(preset => path.relative(__dirname, preset)),
+      })
+    ).toMatchSnapshot()
   })
 
   it('should load config in eslint', () => {
     const cli = new CLIEngine({
       useEslintrc: false,
-      configFile: 'eslintrc.json',
+      configFile: './index.js',
     })
 
     const stub = 'const foo = 1\nconst bar = baz => baz\nbar(foo)\n'

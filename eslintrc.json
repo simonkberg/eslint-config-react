@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "@simonkberg/eslint-config",
-    "standard-react"
-  ]
-}
