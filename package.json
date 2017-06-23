@@ -1,11 +1,16 @@
 {
-  "version": "0.0.0-development",
+  "version": "10.1.1",
   "name": "@simonkberg/eslint-config-react",
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "yarn prettier:check && eslint . && jest",
+    "prettier": "prettier --no-semi --single-quote --trailing-comma es5",
+    "prettier:check": "yarn prettier -- --list-different '**/*.js'",
+    "prettier:format": "yarn prettier -- --write '**/*.js'",
+    "precommit": "lint-staged",
+    "prerelease": "yarn test",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -20,24 +25,39 @@
   "engines": {
     "node": ">=4.0.0"
   },
+  "lint-staged": {
+    "*.js": [
+      "yarn prettier -- --write",
+      "eslint --fix",
+      "jest --findRelatedTests",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
   "jest": {
     "testEnvironment": "node"
   },
   "dependencies": {
-    "@simonkberg/eslint-config": "^6.0.0",
+    "@simonkberg/eslint-config": "^7.0.0",
+    "babel-eslint": "^7.2.3",
+    "eslint-config-prettier": "^2.2.0",
     "eslint-config-standard-react": "^5.0.0",
-    "eslint-plugin-react": "^6.10.3"
+    "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
     "eslint": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "jest-cli": "^19.0.2",
-    "semantic-release": "^6.3.2"
+    "husky": "^0.14.0",
+    "jest": "^20.0.4",
+    "lint-staged": "^4.0.0",
+    "prettier": "^1.4.4",
+    "standard-version": "^4.2.0"
   },
   "files": [
-    "index.js",
-    "eslintrc.json"
+    "index.js"
   ]
 }
