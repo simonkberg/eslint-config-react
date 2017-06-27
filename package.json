@@ -40,17 +40,17 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "@simonkberg/eslint-config": "^7.0.0",
+    "@simonkberg/eslint-config": "^7.1.0",
     "babel-eslint": "^7.2.3",
     "eslint-config-prettier": "^2.2.0",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-react": "^7.1.0"
   },
   "peerDependencies": {
-    "eslint": "^3.0.0"
+    "eslint": ">=3.19.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.1",
     "husky": "^0.14.0",
     "jest": "^20.0.4",
     "lint-staged": "^4.0.0",
