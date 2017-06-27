@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="10.3.0"></a>
+# [10.3.0](https://github.com/simonkberg/eslint-config-react/compare/v10.2.0...v10.3.0) (2017-06-27)
+
+
+### Features
+
+* add support for eslint v4 ([#66](https://github.com/simonkberg/eslint-config-react/issues/66)) ([b86c285](https://github.com/simonkberg/eslint-config-react/commit/b86c285))
+
+
+
 <a name="10.2.0"></a>
 # [10.2.0](https://github.com/simonkberg/eslint-config-react/compare/v10.1.1...v10.2.0) (2017-06-23)
 
