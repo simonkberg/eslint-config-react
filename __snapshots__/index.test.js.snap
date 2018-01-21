@@ -2,17 +2,9 @@
 
 exports[`@simonkberg/eslint-config-react should match the snapshot 1`] = `
 Object {
-  "env": Object {
-    "browser": true,
-  },
   "extends": Array [
-    "node_modules/@simonkberg/eslint-config/index.js",
-    "node_modules/eslint-config-standard-react/index.js",
-    "node_modules/eslint-config-prettier/react.js",
+    "<PROJECT_ROOT>/node_modules/@simonkberg/eslint-config/index.js",
+    "<PROJECT_ROOT>/node_modules/@simonkberg/eslint-config/react.js",
   ],
-  "parser": "node_modules/babel-eslint/index.js",
-  "rules": Object {
-    "jsx-quotes": "off",
-  },
 }
 `;
