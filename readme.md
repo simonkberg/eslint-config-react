@@ -3,6 +3,31 @@
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 
+# This package has been deprecated.
+
+An equivalent preset is available as a separate export of [@simonkberg/eslint-config].
+
+## Migration:
+
+Remove `@simonkberg/eslint-config-react` and install `@simonkberg/eslint-config`:
+
+```
+yarn remove @simonkberg/eslint-config-react
+yarn add --dev @simonkberg/eslint-config
+```
+
+Update `package.json` to contain:
+
+```json
+{
+  "eslintConfig": {
+    "extends": ["@simonkberg/eslint-config", "@simonkberg/eslint-config/react"]
+  }
+}
+```
+
+---
+
 A shareable eslint config for my React projects.
 
 ## Install:
