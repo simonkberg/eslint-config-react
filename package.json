@@ -1,5 +1,5 @@
 {
-  "version": "10.4.0",
+  "version": "11.0.0",
   "name": "@simonkberg/eslint-config-react",
   "description": "A shareable eslint config for my React projects",
   "main": "index.js",
@@ -40,7 +40,9 @@
   "eslintConfig": {
     "extends": "./index.js"
   },
-  "eslintIgnore": ["__fixtures__"],
+  "eslintIgnore": [
+    "__fixtures__"
+  ],
   "jest": {
     "testEnvironment": "node"
   },
@@ -58,5 +60,7 @@
     "prettier": "^1.10.2",
     "standard-version": "^4.3.0"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
